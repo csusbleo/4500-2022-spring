@@ -79,7 +79,7 @@
                 <div class="resume-section-content">
                     <h2 class="mb-5">Experience</h2>
                     <?php
-                      $json = file_get_contents('experience.json');
+                      $json = file_get_contents('my_data.json');
                       $json_data = json_decode($json,true);
 
                       foreach($json_data['experience'] AS $experience) {
