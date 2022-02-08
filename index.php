@@ -22,7 +22,7 @@
             <a class="navbar-brand js-scroll-trigger" href="#page-top">
                 <span class="d-block d-lg-none">Clarence Taylor</span>
                 <span class="d-none d-lg-block">
-                  <img class="img-fluid mx-auto mb-2" src="avataaars.svg" alt="..." style="width:10rem" />
+                  <img class="img-fluid mx-auto mb-2" src="avatar.png" alt="..." style="width:10rem" />
                 </span>
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
