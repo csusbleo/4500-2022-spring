@@ -94,8 +94,8 @@
                         echo '<div class="d-flex flex-column flex-md-row justify-content-between mb-5">';
                         echo '<div class="flex-grow-1">';
                         echo '<h3 class="mb-0">'.$experience['title'].'</h3>';
-                        echo '<div class="subheading mb-3">'.$experience['emploer'].'</div>';
-                        echo '<p>'.$experience['desciption'].'</p>';
+                        echo '<div class="subheading mb-3">'.$experience['employer'].'</div>';
+                        echo '<p>'.$experience['description'].'</p>';
                         echo '</div>';
                         echo '<div class="flex-shrink-0"><span class="text-primary">'.$experience['time'].'</span></div>';
                       }
