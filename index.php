@@ -85,6 +85,11 @@
                         </div>
                         <div class="flex-shrink-0"><span class="text-primary">March 2013 - Present</span></div>
                     </div>
+                    <?php
+                      $json = file_get_contents('experience.json');
+                      $json_data = json_decode($json,true);
+                      print_r($json_data);
+                    ?>
                 </div>
             </section>
             <hr class="m-0" />
