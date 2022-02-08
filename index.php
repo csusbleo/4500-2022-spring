@@ -18,7 +18,7 @@
     <body id="page-top">
         <!-- Navigation-->
         <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
-            <span id="clock"></span>
+            <span id="clock" style="color: #FFFFFF"></span>
             <a class="navbar-brand js-scroll-trigger" href="#page-top">
                 <span class="d-block d-lg-none">Clarence Taylor</span>
                 <span class="d-none d-lg-block">
