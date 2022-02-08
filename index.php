@@ -92,7 +92,6 @@
 
                       foreach($json_data['experience'] AS $experience) {
                         echo '<h3 class="mb-0">'.$experience['title'].'</h3>';
-                        print_r($experience);
                       }
 
                     ?>
