@@ -18,6 +18,7 @@
     <body id="page-top">
         <!-- Navigation-->
         <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
+            <span id="clock"></span>
             <a class="navbar-brand js-scroll-trigger" href="#page-top">
                 <span class="d-block d-lg-none">Clarence Taylor</span>
                 <span class="d-none d-lg-block">
@@ -80,7 +81,6 @@
                     <?php
                       $json = file_get_contents('experience.json');
                       $json_data = json_decode($json,true);
-                      //print_r($json_data);
 
                       foreach($json_data['experience'] AS $experience) {
                         echo '<div class="d-flex flex-column flex-md-row justify-content-between mb-5">';
@@ -222,5 +222,35 @@
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
         <!-- Core theme JS-->
         <script src="scripts.js"></script>
+        <script>
+        setInterval(showTime, 1000);
+          function showTime() {
+            let time = new Date();
+            let hour = time.getHours();
+            let min = time.getMinutes();
+            let sec = time.getSeconds();
+            am_pm = "AM";
+
+            if (hour > 12) {
+                hour -= 12;
+                am_pm = "PM";
+            }
+            if (hour == 0) {
+                hr = 12;
+                am_pm = "AM";
+            }
+
+            hour = hour < 10 ? "0" + hour : hour;
+            min = min < 10 ? "0" + min : min;
+            sec = sec < 10 ? "0" + sec : sec;
+
+            let currentTime = hour + ":"
+                    + min + ":" + sec + am_pm;
+
+            document.getElementById("clock")
+                    .innerHTML = currentTime;
+          }
+          showTime();
+        </script>
     </body>
 </html>
