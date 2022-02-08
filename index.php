@@ -5,7 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         <meta name="description" content="" />
         <meta name="author" content="" />
-        <title>Resume - Start Bootstrap Theme</title>
+        <title>Resume</title>
         <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
         <!-- Font Awesome icons (free version)-->
         <script src="https://use.fontawesome.com/releases/v5.15.4/js/all.js" crossorigin="anonymous"></script>
@@ -36,6 +36,7 @@
                 </ul>
             </div>
             <div>
+              <h3>
               <?php
                 $count_my_page = ("hitcounter.txt");
                 $hits = file($count_my_page);
@@ -45,6 +46,7 @@
                 fclose($fp);
                 echo $hits[0];
               ?>
+              </h3>
             </div>
         </nav>
         <!-- Page Content-->
