@@ -89,7 +89,7 @@
                         echo '<div class="subheading mb-3">'.$experience['employer'].'</div>';
                         echo '<p>'.$experience['description'].'</p>';
                         echo '</div>';
-                        echo '<div class="flex-shrink-0"><span class="text-primary">'.$experience['time'].'</span></div>';
+                        echo '<div class="flex-shrink-0"><span class="text-primary">'.$experience['period'].'</span></div>';
                         echo '</div>';
                       }
 
