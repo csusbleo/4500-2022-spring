@@ -89,7 +89,7 @@
                       $json = file_get_contents('experience.json');
                       $json_data = json_decode($json,true);
                       foreach($json_data['experience'] AS $experience) {
-                        echo '<h3 class="mb-0">'.$experience->title.'</h3>';
+                        echo '<h3 class="mb-0">'.$experience['title'].'</h3>';
                       }
                     ?>
                 </div>
