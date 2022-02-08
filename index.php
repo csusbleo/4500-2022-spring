@@ -47,6 +47,7 @@
                 echo $hits[0];
               ?>
               </h3>
+              <h4>VISITS</h>
             </div>
         </nav>
         <!-- Page Content-->
